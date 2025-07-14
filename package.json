@@ -1,0 +1,17 @@
+{
+    "name": "url",
+    "version": "1.0.0",
+    "description": "URL shortening service",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "geoip-lite": "^1.4.2",
+        "mongoose": "^6.0.0",
+        "valid-url": "^1.0.9",
+        "winston": "^3.3.3"
+    }
+}
